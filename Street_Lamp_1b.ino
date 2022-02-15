@@ -1,11 +1,6 @@
 /*
 Street-Lamp, LED Sensor, Rev.B
 
-StudentNumber:
-StudentName:
-Class: TEJ2O0-A/SHSM-ICT
-Date: Month, Day, Year
-
 Microprocessor Reqd. Arduino UNO R3.
 
 Function: This program turns on an LED when ambient lighting gets low and turns off the LED when ambient light gets increases.
@@ -36,7 +31,7 @@ Note: Because we are using the "serial monitor" function we are able to see that
 3.   Create a variable called "Ambient" and assign it the value of Zero (0)
 4.   Create a variable called "Threshold" and assign it a value of greater than Zero (0)
      This value will be determined by obtaining sensor data and then addeding or subtracting a "stability margin".
-     Use the provided spreadsheet to help determine the threshold.
+    
 
 Setup is cleard from memory and Begins:  
  
