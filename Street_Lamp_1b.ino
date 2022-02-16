@@ -46,10 +46,6 @@ Loop is cleared from memory and Begins:
 7.   Or else, If "AMBIENT" is not less than "THRESHOLD" Set LAMP to LOW (LOW = OFF).
 8.   END OF LOOP (Return to start of loop)
 
-Created by/and shared by Mr. S. Anderson, Castlebrooke Secondary School, Brampton, ON Canada, 2021
-*/
-
-
 int LAMP = 12;// digital port 12
 int SENSOR = A0;// + Anologue port A0 (LED - into GRD)
 int AMBIENT = 0;
